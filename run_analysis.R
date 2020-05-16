@@ -1,7 +1,6 @@
 
 # Checking if archieve already exists.
 
-setwd("D:\\Data Science\\R\\Coursera\\Course 3 Getting and Cleaning Data Cleaning\\Course Project")
 library(dplyr)
 filename<- "getdata_projectfiles_UCI HAR Dataset.zip"
 if (!file.exists(filename)){
